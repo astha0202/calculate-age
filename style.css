@@ -1,0 +1,77 @@
+body{
+    background-color: #0F67B1;
+    font-family: fantasy;
+}
+.heading{
+    text-align: center;
+}
+#sideline{
+    height: 8rem;
+    width: 0.5rem;
+    background-color: #FAFFAF;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+#heading1{
+    color: white;
+    width: 46vw;
+    margin-top: -8rem;
+}
+#heading2{
+    color: #FAFFAF;
+    width: 33vw;
+    margin-left: 1.5rem;
+}
+#white{
+    margin-left: 70%;
+    margin-top: 0%;
+    height: 60vh;
+    filter: blur(150px);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #96C9F4;
+    width: 28vw;
+    height: 12vh;
+    margin-top: -15rem;
+    margin-left: 7rem;
+    border-radius: 8px;
+}
+#buttonn{
+    background-color: #FAFFAF;
+    height: 6vh;
+}
+#date{
+    height: 0.00001vh;
+    justify-content: center;
+    display: flex;
+    margin-right: 1vw;
+    width: 15vw;
+}
+.box input{
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+.box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100%);
+    background-size: 30px;
+    cursor: pointer;
+}
+#result{
+    margin-left: 7rem;
+    margin-top: 3.5rem;
+    color: #FAFFAF;
+}
